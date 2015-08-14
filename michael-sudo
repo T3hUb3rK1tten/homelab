@@ -1,0 +1,6 @@
+# Belongs in /etc/sudoers.d/
+
+# Visual feedback typing password
+Defaults        env_reset,pwfeedback
+
+michael	ALL=NOPASSWD: ALL
