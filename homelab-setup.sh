@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Easy way to run script:
 # su
 # apt-get install curl
 # bash <(curl -s https://github.com/T3hUb3rK1tten/homelab/raw/master/homelab-setup.sh)
@@ -8,6 +9,8 @@ if [ "$EUID" -ne 0 ]
   then echo "Please run as root"
   exit
 fi
+
+apt-get -y install curl sudo openssh-server
 
 rm -Rf /home/michael/.ssh
 mkdir /home/michael/.ssh
