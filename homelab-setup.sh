@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# sudo bash <(curl -s https://github.com/T3hUb3rK1tten/homelab/raw/master/homelab-setup.sh)
+# su
+# bash <(curl -s https://github.com/T3hUb3rK1tten/homelab/raw/master/homelab-setup.sh)
 
 if [ "$EUID" -ne 0 ]
   then echo "Please run as root"
