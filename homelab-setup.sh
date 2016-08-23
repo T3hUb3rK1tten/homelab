@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # su
+# apt-get install curl
 # bash <(curl -s https://github.com/T3hUb3rK1tten/homelab/raw/master/homelab-setup.sh)
 
 if [ "$EUID" -ne 0 ]
