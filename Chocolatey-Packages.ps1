@@ -27,7 +27,7 @@ choco install rescuetime -y
 choco install skype -y
 choco install wireshark -y
 choco install virtualclonedrive -y
-choco install chirp -y
+choco install chirp.install -y
 choco install powerpanel-personal -y
 
 # Not sure if needed?
