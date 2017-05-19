@@ -29,6 +29,7 @@ choco install wireshark -y
 choco install virtualclonedrive -y
 choco install chirp.install -y
 choco install powerpanel-personal -y
+choco install mobaxterm -y
 
 # Not sure if needed?
 # choco install garmin-express -y
