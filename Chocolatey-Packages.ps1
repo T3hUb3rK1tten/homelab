@@ -25,8 +25,9 @@ choco install rescuetime -y --ignore-checksums
 choco install skype -y
 choco install wireshark -y
 choco install chirp.install -y
+choco install chirp.install -y
 choco install powerpanel-personal -y
-choco install windirstat -y
+choco install mobaxterm -y
 choco install glogg -y
 choco install fiddler4 -y
 choco install slack -y
